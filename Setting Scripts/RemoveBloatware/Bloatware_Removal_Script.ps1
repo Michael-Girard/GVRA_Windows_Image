@@ -1,5 +1,6 @@
 #Uses the Remove-AppxPackage cmdlet to remove many of Windows' built-in
-# but unnecessary programs from the current user.
+# but unnecessary programs from the current user. Purposefully leaves in useful
+# programs such as Mail and Calendar
 
 Remove-AppxPackage Microsoft.BingWeather_4.25.20211.0_neutral_~_8wekyb3d8bbwe
 Remove-AppxPackage Microsoft.GetHelp_10.1706.13331.0_neutral_~_8wekyb3d8bbwe
